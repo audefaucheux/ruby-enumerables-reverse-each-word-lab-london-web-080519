@@ -3,4 +3,4 @@ def test(sentence)
   new_reversed = []
   split_array.each {|word| new_reversed.push(word.reverse)}
 return new_reversed
-end 
+end
