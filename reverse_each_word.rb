@@ -1,4 +1,6 @@
-def reverse_each_word(sentence)
-  array = sentence.split
-  array.each {|word| word.reverse}
-end
+def test(sentence)
+  split_array = sentence.split
+  new_reversed = []
+  split_array.each {|word| new_reversed.push(word.reverse)}
+return new_reversed
+end 
